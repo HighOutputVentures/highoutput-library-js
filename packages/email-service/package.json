@@ -1,0 +1,37 @@
+{
+  "name": "highoutput-email-service",
+  "version": "0.0.10",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "eslint ."
+  },
+  "keywords": [
+    "email",
+    "api",
+    "service",
+    "backend"
+  ],
+  "author": "High Output Ventures",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^6.4.0",
+    "aws-sdk": "^2.227.1",
+    "ejs": "^2.5.9",
+    "email-chk": "^1.0.2",
+    "file-exists": "^5.0.1",
+    "flowd": "^1.0.7",
+    "flowd-koa": "^1.0.9",
+    "highoutput-utilities": "0.0.2",
+    "koa-body": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.2.0",
+    "p-throttle": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "highoutput-auth",
+  "version": "3.0.1",
+  "description": "Authentication and authorization module",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "High Output Ventures",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.2.1",
+    "ms": "^2.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "chance": "^1.0.13",
+    "ramda": "^0.25.0",
+    "supertest": "^3.0.0"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.test.js"
+    ],
+    "concurrency": 5,
+    "failFast": true,
+    "failWithoutAssertions": true,
+    "tap": false,
+    "verbose": true,
+    "powerAssert": false,
+    "timeout": "120s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HighOutputVentures/highoutput-library.git"
+  }
+}

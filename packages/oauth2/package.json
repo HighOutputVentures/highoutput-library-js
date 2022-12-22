@@ -10,7 +10,7 @@
   "author": "High Output Ventures",
   "license": "ISC",
   "dependencies": {
-    "jsonwebtoken": "^8.2.1",
+    "jsonwebtoken": "^9.0.0",
     "oauth2-server": "^3.0.0"
   },
   "devDependencies": {
